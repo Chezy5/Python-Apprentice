@@ -14,14 +14,32 @@ to see how to use the turtle commands.
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
-
+tina = Turtle.turtle
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
 
-... # Your code here
+tina.circle(100)
 
-turtle.exitonclick()                    # Close the window when we click on it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+turtle.exitonclick()                    
 
 
 # Dont forget to check in your code!
